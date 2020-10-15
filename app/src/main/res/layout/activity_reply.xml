@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReplyActivity">
+
+    <include layout="@layout/reply_custom_action_bar"
+        android:id="@+id/toolBar"/>
+
+    <RelativeLayout
+        android:id="@+id/reply_user_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message"
+        android:layout_below="@+id/toolBar"
+        android:paddingRight="8dp"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/reply_m_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#000"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/reply_m_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:layout_alignRight="@id/reply_m_message"
+            android:layout_below="@id/reply_m_message"
+            android:textColor="#636363"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/edit_text_boarder"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"/>
+        <ImageView
+            android:src="@drawable/sendbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

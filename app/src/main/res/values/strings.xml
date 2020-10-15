@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MedicineDelivery</string>
+    <string name="map_key" translatable="false">AIzaSyCmfUpULr0C4N3LCWoFTqQMpYWEYUTWG5A</string>
+    <string-array name="state_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>User Type</item>
+        <item>Customer</item>
+        <item>Pharmacy</item>
+        <item>Delivery</item>
+    </string-array>
+
+    <string name="Login_Preference">com.example.medicinedelivery_login_preference</string>
+    <string name="Login_Status_Preference">com.example.medicinedelivery_login_Status_preference</string>
+    <string name="User_TYPE">com.example.medicinedelivery_User_TYPE</string>
+    <string name="User_ID">com.example.medicinedelivery_User_ID</string>
+    <string name="User_Name">com.example.medicinedelivery_User_Name</string>
+    <string name="User_Password">com.example.medicinedelivery_User_Password</string>
+    <string name="User_Full_Name">com.example.medicinedelivery_User_Full_Name</string>
+    <string name="User_Phone">com.example.medicinedelivery_User_Phone</string>
+    <string name="User_Birth_Date">com.example.medicinedelivery_User_Birth_Date</string>
+    <string name="User_Address">com.example.medicinedelivery_User_Address</string>
+    <string name="User_Token">com.example.medicinedelivery_User_Token</string>
+    <string name="Token">com.example.medicinedelivery_Token</string>
+</resources>
